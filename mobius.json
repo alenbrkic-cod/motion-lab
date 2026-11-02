@@ -1,0 +1,27 @@
+{
+  "id": "motion-lab",
+  "name": "Motion Lab",
+  "version": "0.1.0",
+  "description": "Live readings from your phone's accelerometer, gyroscope, orientation and compass, with a spirit level.",
+  "entry": "index.jsx",
+  "icon": "icon.png",
+  "offline_capable": true,
+  "permissions": {},
+  "source_files": [],
+  "store": {
+    "tagline": "Your phone's motion sensors, live: compass, spirit level, accelerometer and gyroscope.",
+    "description": "Motion Lab turns your phone's built-in sensors into a live dashboard. A single dial works as both a compass and a spirit level: the ring turns with your heading, and the bubble drifts as you tilt the phone, turning green when it sits level. Below it, cards show the accelerometer, gyroscope, device orientation and compass heading as they change, with the update rate and total g-force.\n\nUse it to level a shelf or a picture frame, find north, check that a phone's sensors work, or just watch what your phone feels as it moves.\n\nReadings run only while Motion Lab is on screen, and you can pause them at any time. Nothing is recorded or sent anywhere: the numbers stay on your device. On iPhone, tap Start and allow motion access. Most computers have no motion sensors, so open Motion Lab on your phone to see live readings.",
+    "screenshots": [
+      {
+        "src": "static/store/e4b875b5f0a57846.webp",
+        "alt": "Motion Lab on a phone: a compass dial pointing 312° northwest with the level bubble tilted off centre, and live accelerometer and gyroscope readings below.",
+        "label": "Compass and tilt in one dial."
+      },
+      {
+        "src": "static/store/72ee591e158512f4.webp",
+        "alt": "Motion Lab on a phone lying flat: the level bubble is centred and green with the word Level under a 267° west heading, and live sensor cards below.",
+        "label": "Turns green when the phone is level."
+      }
+    ]
+  }
+}
